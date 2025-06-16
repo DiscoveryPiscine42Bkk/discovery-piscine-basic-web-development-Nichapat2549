@@ -1,2 +1,1 @@
-#!/bin/bash
-ls -mp
+echo "ls -1 | grep -v '^.' | paste -sd," > midLS
